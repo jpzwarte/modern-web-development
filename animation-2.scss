@@ -1,0 +1,21 @@
+span {
+  animation: bouncedelay 1.4s infinite ease-in-out both;
+
+  &.bounce1 {
+    animation-delay: -0.60s;
+  }
+
+  &.bounce2 {
+    animation-delay: -0.40s;
+  }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    opacity: 0;
+    transform: scale(0.4);
+  } 40% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}

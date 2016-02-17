@@ -1,0 +1,13 @@
+@import 'mixins';
+
+.eb-icon {
+  background: $eb-splitter-control-bg;
+  border: $eb-splitter-control-border;
+  border-radius: 50%;
+  fill: $eb-splitter-control;
+  margin-top: $eb-splitter-control-size / -2;
+  margin-left: ($eb-splitter-control-size - $eb-splitter-control-width) / -2;
+  padding: 3px;
+  @include position(absolute, 50% 0 0 0);
+  @include size($eb-splitter-control-size);
+}

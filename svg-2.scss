@@ -1,0 +1,9 @@
+.icon {
+  fill: blue;
+  transition: fill 0.2s ease-in-out;
+  @include size(12px);
+
+  &:hover {
+    fill: red;
+  }
+}

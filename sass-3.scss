@@ -1,0 +1,8 @@
+h1 {
+  color: $secondary;
+  font: 700 16px $font-header;
+  @include bp(medium, small) {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
